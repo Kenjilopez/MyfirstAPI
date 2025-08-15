@@ -24,7 +24,7 @@ def saludo_chino(nombre="diego"):
 
 @app.route("/PYCCKNÑ/<nombre>")
 def saludo_ruso(nombre="diego"):
-    return f"ПРИВЕТ, МИР {nombre}"
+    return f"ПРИВЕТ, МИРa {nombre}"
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=53)
